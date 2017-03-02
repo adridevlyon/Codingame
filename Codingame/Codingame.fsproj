@@ -52,6 +52,7 @@
     <Compile Include="PowerOfThor1.fs" />
     <Compile Include="Defibrillator.fs" />
     <Compile Include="Descent.fs" />
+    <Compile Include="AsciiArt.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
   </ItemGroup>
