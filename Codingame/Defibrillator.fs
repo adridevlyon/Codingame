@@ -18,14 +18,13 @@ let getPointRad pDeg = {LongRad=getRad pDeg.LongDeg; LatRad=getRad pDeg.LatDeg}
 let getPointDeg (lon:string) (lat:string) = {LongDeg=float(lon.Replace(",", ".")); LatDeg=float(lat.Replace(",", "."))}
 
 let rec getDefibs nbLeft =
-    match nbLeft with
-    | 0 -> []
-    | a ->
+    if nbLeft = 0 then []
+    else
         let defib = Console.In.ReadLine()
         let defibSplit = defib.Split [|';'|]
         let pDeg = getPointDeg defibSplit.[4] defibSplit.[5]
         let pRad = {Number=int(defibSplit.[0]); Name=defibSplit.[1]; Adress=defibSplit.[2]; Tel=defibSplit.[3]; PointR=getPointRad pDeg}
-        pRad::(getDefibs (a-1))
+        pRad::(getDefibs (nbLeft-1))
 
 let defibs = getDefibs N
 

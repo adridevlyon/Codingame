@@ -51,6 +51,7 @@
     <Compile Include="ChuckNorris.fs" />
     <Compile Include="PowerOfThor1.fs" />
     <Compile Include="Defibrillator.fs" />
+    <Compile Include="Descent.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
   </ItemGroup>
