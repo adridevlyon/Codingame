@@ -50,6 +50,7 @@
     <Compile Include="AssemblyInfo.fs" />
     <Compile Include="ChuckNorris.fs" />
     <Compile Include="PowerOfThor1.fs" />
+    <Compile Include="Defibrillator.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
   </ItemGroup>
