@@ -9,7 +9,7 @@ let temps = Console.In.ReadLine() (* the n temperatures expressed as integers ra
 
 if n=0 then printfn "0"
 else
-    let tempsTable = temps.Split(' ')
+    let tempsTable = temps.Split [|' '|]
     let tempsList = tempsTable |> Seq.map int |> Seq.toList
 
     let rec getTempCloserToZero (closer:Option<int>) tempTable =

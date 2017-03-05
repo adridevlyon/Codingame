@@ -54,6 +54,7 @@
     <Compile Include="Descent.fs" />
     <Compile Include="AsciiArt.fs" />
     <Compile Include="Temperatures.fs" />
+    <Compile Include="MarsLander1.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
   </ItemGroup>
