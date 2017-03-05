@@ -48,15 +48,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="ChuckNorris.fs" />
-    <Compile Include="PowerOfThor1.fs" />
-    <Compile Include="Defibrillator.fs" />
-    <Compile Include="Descent.fs" />
-    <Compile Include="AsciiArt.fs" />
-    <Compile Include="Temperatures.fs" />
-    <Compile Include="MarsLander1.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
+    <Compile Include="Easy\ChuckNorris.fs" />
+    <Compile Include="Easy\PowerOfThor1.fs" />
+    <Compile Include="Easy\Defibrillator.fs" />
+    <Compile Include="Easy\Descent.fs" />
+    <Compile Include="Easy\AsciiArt.fs" />
+    <Compile Include="Easy\Temperatures.fs" />
+    <Compile Include="Easy\MarsLander1.fs" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
