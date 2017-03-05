@@ -53,6 +53,7 @@
     <Compile Include="Defibrillator.fs" />
     <Compile Include="Descent.fs" />
     <Compile Include="AsciiArt.fs" />
+    <Compile Include="Temperatures.fs" />
     <Compile Include="Program.fs" />
     <None Include="App.config" />
   </ItemGroup>
