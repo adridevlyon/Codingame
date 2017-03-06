@@ -59,6 +59,7 @@
     <Compile Include="Easy\MimeType.fs" />
     <None Include="App.config" />
     <Compile Include="Medium\Battle.fs" />
+    <Compile Include="Medium\Skynet1.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
   <PropertyGroup>
